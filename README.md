@@ -19,3 +19,14 @@ replace the public and src folders with those in this repo.
 
 <h3>Results</h3>
 <img src="./result.png">
+
+# Another Way
+
+You can clone the repository by forking the repository and install the node_modules .
+
+and then running 
+
+# npm start
+
+to start the server...
+
