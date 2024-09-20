@@ -9,7 +9,7 @@ class TodoList extends Component {
 		this.deleteItem = this.deleteItem.bind(this);
 	}
 	addItem(e){
-		if(this._inputElement.value !== ""){
+		if(this._inputElement.value.trim() !== ""){
 			var newItem = {
 				text: this._inputElement.value, 
 				key: Date.now()
